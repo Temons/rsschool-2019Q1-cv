@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.header {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  background: url(../images/header-bg71.jpg) 0 -200px no-repeat;
+  background-size: cover; }
+  .header .box {
+    color: #fff;
+    font-size: 64px;
+    border: 3px solid #fff;
+    padding: 10px 10px; }
+  .header h1 {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 300; }
+  .header h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500; }
+
+@media screen and (max-width: 1000px) {
+  .header {
+    height: 100%;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding-top: 10px; }
+    .header h1 {
+      padding: 30px 0; } }
+
+@media screen and (max-width: 750px) {
+  .header {
+    height: 100%; }
+    .header .box {
+      font-size: 48px; }
+    .header h1 {
+      padding: 0 0;
+      font-size: 48px; } }
+
+@media screen and (max-width: 583px) {
+  .header {
+    background: url(../images/header-bg71.jpg) -160px -200px no-repeat;
+    background-size: auto 500px; } }
+
+@media screen and (max-width: 400px) {
+  .header {
+    width: 100%; }
+    .header .box {
+      font-size: 36px; }
+    .header h1 {
+      font-size: 40px; } }
+
+.contacts {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-image: url(../images/bg3.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .contacts .face {
+    width: 500px;
+    border-radius: 50%;
+    margin: 30px; }
+  .contacts ul {
+    list-style: none; }
+    .contacts ul li {
+      font-weight: 500;
+      font-size: 14px;
+      color: #101010; }
+      .contacts ul li h5 {
+        margin: 20px 0; }
+        .contacts ul li h5 span {
+          font-weight: 900; }
+        .contacts ul li h5 a {
+          text-decoration: none;
+          color: black; }
+
+.summary {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .summary h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px; }
+
+.skills {
+  max-width: 1024px;
+  margin: 0 auto; }
+  .skills h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px; }
+  .skills p {
+    padding: 20px; }
+
+.example {
+  max-width: 1024px;
+  margin: 0 auto; }
+  .example h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase; }
+    .example h3 a {
+      text-decoration: none;
+      color: black; }
+
+.education {
+  max-width: 1024px;
+  margin: 0 auto; }
+  .education h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px; }
+  .education p a {
+    color: black; }
+
+.footer {
+  max-width: 1024px;
+  margin: 0 auto; }
+  .footer h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px; }
+  .footer p a {
+    color: black; }
